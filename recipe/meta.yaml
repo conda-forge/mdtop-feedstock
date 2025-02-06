@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "mdtop" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/SimonBoothroyd/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: e35e594755d258d52da571925d076a221900c98243139fff005a89afb3fd4f19
+  sha256: c7615c347c9eb2ea505f47fc771cc737b140c1178ccbef1d239c827049a0d644
 
 build:
   noarch: python
